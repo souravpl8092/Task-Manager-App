@@ -1,0 +1,68 @@
+/* Task Page Container */
+.task-page {
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  background-color: #808080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Title */
+.navbar-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 1.2%;
+}
+
+/* Logout Button */
+.signin-button,
+.signup-button {
+  background: linear-gradient(135deg, #cf4a29, #feb47b);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  margin-right: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+/* Hover Effect */
+.signin-button:hover,
+.signup-button:hover {
+  background: linear-gradient(135deg, #ff9a8b, #cf4a29);
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-button:active,
+.signup-button:active {
+  transform: scale(0.95);
+}
+
+.no-tasks-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  gap: 5px;
+  flex-wrap: wrap;
+  color: #6c757d;
+  text-align: center;
+}

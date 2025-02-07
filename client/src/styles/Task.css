@@ -1,0 +1,50 @@
+/* Task Page Container */
+.task-page {
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  background-color: #808080; /* Gray color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Title */
+.navbar-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 1.2%;
+}
+
+/* Logout Button */
+.logout-button {
+  background: linear-gradient(135deg, #cf4a29, #feb47b);
+  transition: all 0.3s ease-in-out;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 2%;
+}
+
+.logout-button:hover {
+  background: linear-gradient(135deg, #ff9a8b, #cf4a29);
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-button:active {
+  transform: scale(0.95);
+}
